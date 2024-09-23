@@ -1,0 +1,11 @@
+This script manages a student registration form and displays the entered student data in an HTML table. It supports adding new students, editing existing ones, and removing them from the list. The data is stored in the browser's localStorage, which means the information persists across page reloads.
+
+Key Features:
+
+-Add New Student: Form to collect student information (ID, Name, Email, Contact) and add it to a table.
+-Edit Student Details: Option to update existing student details.
+-Delete Student: Option to remove a student from the list.
+-Data Persistence: Data is stored in localStorage, so the list remains even after page reloads.
+-Form Validation: Form inputs are validated to ensure they are correct before being added or updated.
+
+GITHUB LINK :-  
