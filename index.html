@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Students Registration System</h1>
+        </div>
+        <div class="description">
+            <p>This Student Registration System allows users to add, view, edit, and delete student records. It ensures the efficient management of student information such as ID, name, email, and contact details. The system includes validation to prevent incomplete or incorrect data entries and stores the records in local storage, ensuring that data persists even after refreshing the page.</p>
+        </div>
+    </header>
+    <main>
+        <section class="form">
+            <div class="bg-image"></div>
+            <h2 id="formHeading">Registration Form</h2>
+            <form action="">
+                <div class="fields">
+                    <label for="stdName">Student Name:</label>
+                    <input type="text" maxlength="30" name="stdName" id="stdName">
+                </div>
+                <div class="fields">
+                    <label for="stdId">Student Id:</label>
+                    <input type="text" name="stdId" id="stdId">
+                </div>
+                <div class="fields">
+                    <label for="stdEmail">Student Email:</label>
+                    <input type="email" name="stdEmail" id="stdEmail">
+                </div>
+                <div class="fields">
+                    <label for="stdContact">Student Phone Number:</label>
+                    <input type="text" maxlength="10" name="stdContact" id="stdContact">
+                </div>
+                <div class="buttons">
+                    <button id="submitBtn" class="btn" type="button">Submit</button>
+                    <button id="updateBtn" class="btn" type="button">Update</button>
+                    <button id="cancleBtn" class="btn" type="button">Cancle</button>
+                </div>
+            </form>
+        </section>
+        <section class="table">
+            <div class="bg-image"></div>
+            <h2>Student Records</h2>
+            <div class="scroll-box">
+                <table id="main-table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Edit</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            Copyright &copy; 2024 Student Registration System
+        <p>
+    </footer>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
