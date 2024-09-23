@@ -15,6 +15,7 @@ body {
     font-style: normal;
 }
 
+/*header*/
 header .title {
     height: 60px;
     display: flex;
@@ -29,6 +30,8 @@ header .description {
     font-size: 17px;
     height: 120px;
 }
+
+/*main section*/
 
 main {
     display: flex;
@@ -53,6 +56,7 @@ main {
     background-repeat: no-repeat;
 }
 
+/*Form section or Registartion updation section*/
 .form {
     width: 50%;
     position: relative;
@@ -109,6 +113,7 @@ main {
     color: red;
 }
 
+/* Table section or Display section*/
 .table {
     position: relative;
     display: flex;
@@ -129,6 +134,9 @@ main {
 .scroll-box {
     height: 360px;
     width: 80%;
+}
+
+.scrollable{
     overflow-y: scroll;
 }
 
@@ -147,7 +155,6 @@ main {
     border: 1px solid white;
     border-radius: 10px;
 }
-
 
 #main-table {
     margin: auto;
@@ -183,6 +190,7 @@ tbody td {
     color: greenyellow;
 }
 
+/*footer section*/
 footer {
     background-color: grey;
     height: 50px;

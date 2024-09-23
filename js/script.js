@@ -61,6 +61,13 @@ function updateTable() {
         }
         //adding edit remove btn functionality.
         addEditRemoveBtn();
+
+        //adding dynamic scrollbar.
+        if (tableBody.parentElement.parentElement.scrollHeight > 360) {  
+            tableBody.parentElement.parentElement.classList.add('scrollable'); 
+        } else {
+            tableBody.parentElement.parentElement.classList.remove('scrollable'); 
+        }
     }
 }
 
