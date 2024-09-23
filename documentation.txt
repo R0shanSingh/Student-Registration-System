@@ -8,4 +8,4 @@ Key Features:
 -Data Persistence: Data is stored in localStorage, so the list remains even after page reloads.
 -Form Validation: Form inputs are validated to ensure they are correct before being added or updated.
 
-GITHUB LINK :-  
+GITHUB LINK :-  https://github.com/R0shanSingh/Student-Registration-System.git
